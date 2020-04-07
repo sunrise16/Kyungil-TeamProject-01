@@ -1,4 +1,4 @@
-# Kyungil-TeamProject-01
+# Kyungil-TeamProject-Zelda
 
 경일게임아카데미 팀프로젝트 깃허브 페이지입니다.
 
