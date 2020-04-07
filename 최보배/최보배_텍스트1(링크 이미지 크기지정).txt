@@ -1,0 +1,27 @@
+_loading->loadFrameImage("링크뒤로공격", "링크뒤로공격_638+28_29장.bmp", 1856, 64, 29, 1);
+
+_loading->loadFrameImage("링크뒤로방어", "링크뒤로방어_144+22_8장.bmp", 512, 64, 8, 1);
+
+_loading->loadFrameImage("링크물건얻기", "링크물건얻기_54+25_3장.bmp", 192, 64, 3, 1);
+
+_loading->loadFrameImage("링크앞으로걷기", "링크앞으로걷기_180+24_10장.bmp", 640, 64, 10, 1);
+
+_loading->loadFrameImage("링크앞으로공격", "링크앞으로공격_209+24_11장.bmp", 704, 64, 11, 1);
+
+_loading->loadFrameImage("링크앞으로방어", "링크앞으로방어_144+23_8장.bmp", 512, 64, 8, 1);
+
+_loading->loadFrameImage("링크옆으로걷기", "링크옆으로걷기_230+23_10장.bmp", 640, 64, 10, 1);
+
+_loading->loadFrameImage("링크옆으로공격", "링크옆으로공격_609+25_29장.bmp", 1856, 64, 29, 1);
+
+_loading->loadFrameImage("링크옆으로방어", "링크옆으로방어_160+23_8장.bmp", 512, 64, 8, 1);
+
+_loading->loadFrameImage("링크오른쪽옆으로걷기", "링크오른쪽옆으로걷기_230+23_10장.bmp", 640, 64, 10, 1);
+
+_loading->loadFrameImage("링크오른쪽옆으로공격", "링크오른쪽옆으로공격_609+25_29장.bmp", 1856, 64, 29, 1);
+
+_loading->loadFrameImage("링크오른쪽옆으로방어", "링크오른쪽옆으로방어_160+23_8장.bmp", 512, 64, 8, 1);
+
+_loading->loadFrameImage("링크위로걷기", "링크위로걷기_180+26_10장.bmp", 640, 64, 10, 1);
+
+_loading->loadFrameImage("링크피격", "링크피격_125+24_5장.bmp", 320, 64, 5, 1);
