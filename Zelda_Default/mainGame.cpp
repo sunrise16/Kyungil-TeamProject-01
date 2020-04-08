@@ -7,7 +7,9 @@ HRESULT mainGame::init()
 	gameNode::init();
 
 	// ¾À Ãß°¡
-	SCENEMANAGER->addScene("mapToolScene", new mapToolScene);
+	SCENEMANAGER->addScene("mapToolScene", new mapToolScene);		// ¸ÊÅø ¾À
+	SCENEMANAGER->addScene("inGameScene", new inGameScene);			// ÀÎ°ÔÀÓ ¾À
+	
 
 	// ÇöÀç ¾À ¼³Á¤
 	SCENEMANAGER->loadScene("mapToolScene");

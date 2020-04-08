@@ -67,6 +67,9 @@
     <Filter Include="MainGame\Class\Item">
       <UniqueIdentifier>{a9781220-8cce-4162-9781-2476886de91e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="MainGame\Scene\InGameScene">
+      <UniqueIdentifier>{f4e1acfc-1909-4caa-acff-b69d1f7526b8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="camera.cpp">
@@ -119,6 +122,12 @@
     </ClCompile>
     <ClCompile Include="soundManager.cpp">
       <Filter>GameFramework2D\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="octopus.cpp">
+      <Filter>MainGame\Class\Enemy\Minion</Filter>
+    </ClCompile>
+    <ClCompile Include="inGameScene.cpp">
+      <Filter>MainGame\Scene\InGameScene</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -178,6 +187,12 @@
     </ClInclude>
     <ClInclude Include="soundManager.h">
       <Filter>GameFramework2D\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="octopus.h">
+      <Filter>MainGame\Class\Enemy\Minion</Filter>
+    </ClInclude>
+    <ClInclude Include="inGameScene.h">
+      <Filter>MainGame\Scene\InGameScene</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

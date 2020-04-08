@@ -1,12 +1,12 @@
 #pragma once
 #include "gameNode.h"
-#include "maptoolScene.h"
-#include "inGameScene.h"
+#include "octopus.h"
 
-// mainGame 클래스
-class mainGame : public gameNode
+class inGameScene :	public gameNode
 {
 private:
+	octopus* _octopus;
+
 
 public:
 	// 초기화 처리
@@ -21,8 +21,7 @@ public:
 	// 화면 출력 처리
 	void render();
 
-	// 생성자, 소멸자
-	mainGame() {}
-	~mainGame() {}
+	inGameScene() {}
+	~inGameScene() {}
 };
 
