@@ -132,6 +132,9 @@
     <ClCompile Include="bullet.cpp">
       <Filter>MainGame\Class\Bullet</Filter>
     </ClCompile>
+    <ClCompile Include="mushroom.cpp">
+      <Filter>MainGame\Class\Enemy\Minion</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="camera.h">
@@ -199,6 +202,9 @@
     </ClInclude>
     <ClInclude Include="bullet.h">
       <Filter>MainGame\Class\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="mushroom.h">
+      <Filter>MainGame\Class\Enemy\Minion</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

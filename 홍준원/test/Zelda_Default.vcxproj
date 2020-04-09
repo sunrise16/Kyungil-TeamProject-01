@@ -135,6 +135,7 @@
     <ClCompile Include="loading.cpp" />
     <ClCompile Include="mainGame.cpp" />
     <ClCompile Include="mapToolScene.cpp" />
+    <ClCompile Include="mushroom.cpp" />
     <ClCompile Include="octopus.cpp" />
     <ClCompile Include="playerData.cpp" />
     <ClCompile Include="progressBar.cpp" />
@@ -158,6 +159,7 @@
     <ClInclude Include="loading.h" />
     <ClInclude Include="mainGame.h" />
     <ClInclude Include="mapToolScene.h" />
+    <ClInclude Include="mushroom.h" />
     <ClInclude Include="octopus.h" />
     <ClInclude Include="playerData.h" />
     <ClInclude Include="progressBar.h" />

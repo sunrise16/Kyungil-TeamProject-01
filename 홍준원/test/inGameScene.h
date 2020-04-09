@@ -1,11 +1,13 @@
 #pragma once
 #include "gameNode.h"
 #include "octopus.h"
+#include "mushroom.h"
 
 class inGameScene : public gameNode
 {
 private:
 	octopus* _octopus;
+	mushroom* _mushroom;
 
 
 public:

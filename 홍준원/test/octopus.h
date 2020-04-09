@@ -26,19 +26,23 @@ struct tagOctopus
 	int _move;
 	int frameX, frameY;
 	int _state;
+	int destroyX, destroyY;
+	int _color;
 };
 
 class octopus : public gameNode
 {
 private:
-	tagOctopus _octopus[MINION_MAX];		//문어 구조체 선언
+	vector<tagOctopus> _octopus;		//문어 구조체 선언
 
 	missile* _missile;
 
 	image* _red;
 	image* _blue;
 	image* _yellow;
-
+	image* _destroy;
+	image* _destroy1;
+	image* _destroy2;
 
 
 public:
@@ -50,4 +54,5 @@ public:
 	octopus() {}
 	~octopus() {}
 };
+
 
