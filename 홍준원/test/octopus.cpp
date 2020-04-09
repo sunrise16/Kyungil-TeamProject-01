@@ -22,18 +22,41 @@ HRESULT octopus::init()
 		_octopus[i]._state = RANDOM->Range(0, 3);
 	}
 
+	_missile = new missile;
+	_missile->init(30, 500);
 
 	return S_OK;
 }
 
 void octopus::release()
 {
+	_missile->release();
+	SAFE_DELETE(_missile);
 }
 
 void octopus::update()
 {
+	_missile->update();
+
 	for (int i = 0; i < MINION_MAX; i++)
 	{
+		if (_octopus[i].x - 32 < 0)
+		{
+			_octopus[i].x = 32;
+		}
+		if (_octopus[i].x + 32 > WINSIZEX)
+		{
+			_octopus[i].x = WINSIZEX - 32;
+		}
+		if (_octopus[i].y - 40 < 0)
+		{
+			_octopus[i].y = 40;
+		}
+		if (_octopus[i].y + 40 > WINSIZEY)
+		{
+			_octopus[i].y = WINSIZEY - 40;
+		}
+
 		if (_octopus[i].frameY == octo_DOWN)
 		{
 			_octopus[i].y += 0.5;
@@ -42,17 +65,22 @@ void octopus::update()
 			{
 				_octopus[i].frameX++;
 			}
-			if (_octopus[i].frameX >= 4 && _octopus[i].frameX <= 5)			//문어 대포모션, 이동 정지
+			if (_octopus[i].frameX > 3)				//문어 대포모션, 이동 정지
 			{
 				_octopus[i].y -= 0.5;
+			}
+			if (_octopus[i]._count % 250 == 0)			//문어 발사
+			{
+				_missile->fire(_octopus[i].x, _octopus[i].y + 32, -(PI_2));
 			}
 			if (_octopus[i].frameX > 5)
 			{
 				_octopus[i].frameX = 0;
 				_octopus[i].frameY = RANDOM->Range(octo_DOWN, octo_UP);
+				_octopus[i]._count = RANDOM->Range(0, 30);
 			}
 		}
-		else if (_octopus[i].frameY == octo_LEFT)
+		if (_octopus[i].frameY == octo_LEFT)
 		{
 			_octopus[i].x -= 0.5;
 			_octopus[i]._count++;
@@ -60,17 +88,22 @@ void octopus::update()
 			{
 				_octopus[i].frameX++;
 			}
-			if (_octopus[i].frameX >= 4 && _octopus[i].frameX <= 5)			//문어 대포모션, 이동 정지
+			if (_octopus[i].frameX > 3)				//문어 대포모션, 이동 정지
 			{
 				_octopus[i].x += 0.5;
+			}
+			if (_octopus[i]._count % 250 == 0)			//문어 발사
+			{
+				_missile->fire(_octopus[i].x - 40, _octopus[i].y - 5, PI);
 			}
 			if (_octopus[i].frameX > 5)
 			{
 				_octopus[i].frameX = 0;
 				_octopus[i].frameY = RANDOM->Range(octo_DOWN, octo_UP);
+				_octopus[i]._count = RANDOM->Range(0, 30);
 			}
 		}
-		else if (_octopus[i].frameY == octo_RIGHT)
+		if (_octopus[i].frameY == octo_RIGHT)
 		{
 			_octopus[i].x += 0.5;
 			_octopus[i]._count++;
@@ -78,17 +111,22 @@ void octopus::update()
 			{
 				_octopus[i].frameX++;
 			}
-			if (_octopus[i].frameX >= 4 && _octopus[i].frameX <= 5)			//문어 대포모션, 이동 정지
+			if (_octopus[i].frameX > 3)				//문어 대포모션, 이동 정지
 			{
 				_octopus[i].x -= 0.5;
+			}
+			if (_octopus[i]._count % 250 == 0)			//문어 발사
+			{
+				_missile->fire(_octopus[i].x + 40, _octopus[i].y - 5, PI2);
 			}
 			if (_octopus[i].frameX > 5)
 			{
 				_octopus[i].frameX = 0;
 				_octopus[i].frameY = RANDOM->Range(octo_DOWN, octo_UP);
+				_octopus[i]._count = RANDOM->Range(0, 30);
 			}
 		}
-		else if (_octopus[i].frameY == octo_UP)
+		if (_octopus[i].frameY == octo_UP)
 		{
 			_octopus[i].y -= 0.5;
 			_octopus[i]._count++;
@@ -96,14 +134,19 @@ void octopus::update()
 			{
 				_octopus[i].frameX++;
 			}
-			if (_octopus[i].frameX >= 4 && _octopus[i].frameX <= 5)			//문어 대포모션, 이동 정지
+			if (_octopus[i].frameX > 3)			//문어 대포모션, 이동 정지
 			{
 				_octopus[i].y += 0.5;
+			}
+			if (_octopus[i]._count % 250 == 0)			//문어 발사
+			{
+				_missile->fire(_octopus[i].x, _octopus[i].y - 32, PI_2);
 			}
 			if (_octopus[i].frameX > 5)
 			{
 				_octopus[i].frameX = 0;
 				_octopus[i].frameY = RANDOM->Range(octo_DOWN, octo_UP);
+				_octopus[i]._count = RANDOM->Range(0, 30);
 			}
 		}
 	}
@@ -111,6 +154,7 @@ void octopus::update()
 
 void octopus::render()
 {
+	_missile->render();
 	for (int i = 0; i < MINION_MAX; i++)
 	{
 		if (i < 3)

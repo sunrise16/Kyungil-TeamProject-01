@@ -129,6 +129,9 @@
     <ClCompile Include="octopus.cpp">
       <Filter>MainGame\Class\Enemy\Minion</Filter>
     </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>MainGame\Class\Bullet</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="camera.h">
@@ -193,6 +196,9 @@
     </ClInclude>
     <ClInclude Include="octopus.h">
       <Filter>MainGame\Class\Enemy\Minion</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>MainGame\Class\Bullet</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,6 +1,6 @@
 #pragma once
 #include "gameNode.h"
-//#include "bullet.h"
+#include "bullet.h"
 
 #define MINION_HP 30		//문어 HP
 #define MINION_MAX 9		//문어 수
@@ -33,6 +33,8 @@ class octopus : public gameNode
 private:
 	tagOctopus _octopus[MINION_MAX];		//문어 구조체 선언
 
+	missile* _missile;
+
 	image* _red;
 	image* _blue;
 	image* _yellow;
@@ -48,3 +50,4 @@ public:
 	octopus() {}
 	~octopus() {}
 };
+
