@@ -2,7 +2,7 @@
 #include "gameNode.h"
 #include "bullet.h"
 
-#define MINION_HP 30		//문어 HP
+#define MINION_HP 300		//문어 HP
 #define MINION_MAX 9		//문어 수
 
 enum octoState

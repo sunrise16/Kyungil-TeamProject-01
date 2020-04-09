@@ -60,7 +60,7 @@ void octopus::update()
 
 	for (int i = 0; i < _octopus.size(); i++)
 	{
-		//_octopus[i]._hp -= 1;			//죽었을때 모션 확인
+		_octopus[i]._hp -= 1;			//죽었을때 모션 확인
 		if (_octopus[i].x - 32 < 0)
 		{
 			_octopus[i].x = 32;
