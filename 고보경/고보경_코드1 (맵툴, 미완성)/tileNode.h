@@ -10,6 +10,9 @@
 #define TILEMAPSIZEX 11
 #define TILEMAPSIZEY 4
 
+#define CAMERA_TILEX WINSIZEX/TILESIZE
+#define CAMERA_TILEY WINSIZEY/TILESIZE
+
 // 이미지 타일 (화면 우측 상단에 붙여 놓을 샘플 타일)
 //X SIZE 고정 6 (384pixel)
 
@@ -54,12 +57,15 @@ struct tagTile
 {
 	TERRAIN terrain;
 	OBJECT obj;
-	RECT rc;
+	RECT rc;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
 
+	int x, y;
 	int terrainFrameX;
 	int terrainFrameY;
 	int objFrameX;
 	int objFrameY;
+	//드래그용
+	bool isSelect;
 };
 
 // 이미지 타일 구조체
@@ -68,6 +74,20 @@ struct tagSampleTile
 	RECT rc;
 	int terrainFrameX;
 	int terrainFrameY;
+	int startX, startY;
+	int endX, endY;
+};
+
+struct tagDragTile
+{
+	int left, right, top, bottom;
+	int startX;
+	int startY;
+	int Width;
+	int Height;
+	int EndX;
+	int EndY;
+	bool isDrag;
 };
 
 // 현재 타일 구조체
