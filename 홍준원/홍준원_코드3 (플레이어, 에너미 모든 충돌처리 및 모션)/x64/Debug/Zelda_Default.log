@@ -1,0 +1,431 @@
+﻿  bullet.cpp
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(76,15): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(99,18): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(100,19): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(102,17): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(103,17): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(118,15): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,25): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,25): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,43): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,43): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,63): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,63): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,84): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,84): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\bullet.cpp(108,57): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\bullet.cpp(108,43): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\bullet.cpp(123,57): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\bullet.cpp(123,43): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  camera.cpp
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(76,15): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(99,18): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(100,19): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(102,17): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(103,17): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(118,15): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,25): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,25): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,43): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,43): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,63): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,63): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,84): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,84): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\camera.cpp(76,93): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\camera.cpp(76,65): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  gameNode.cpp
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(76,15): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(99,18): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(100,19): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(102,17): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(103,17): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(118,15): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,25): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,25): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,43): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,43): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,63): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,63): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,84): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,84): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  image.cpp
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(76,15): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(99,18): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(100,19): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(102,17): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(103,17): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(118,15): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,25): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,25): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,43): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,43): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,63): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,63): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,84): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,84): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\image.cpp(69,28): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\image.cpp(109,28): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\image.cpp(153,28): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\image.cpp(199,28): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\image.cpp(864,41): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\image.cpp(865,43): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\image.cpp(904,41): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\image.cpp(905,43): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\image.cpp(956,11): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\image.cpp(964,42): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\image.cpp(965,43): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\image.cpp(984,10): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\image.cpp(983,10): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\image.cpp(1010,11): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\image.cpp(1018,42): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\image.cpp(1019,43): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\image.cpp(1042,10): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\image.cpp(1041,10): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  imageManager.cpp
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(76,15): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(99,18): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(100,19): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(102,17): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(103,17): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(118,15): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,25): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,25): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,43): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,43): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,63): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,63): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,84): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,84): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  inGameScene.cpp
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(76,15): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(99,18): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(100,19): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(102,17): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(103,17): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(118,15): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,25): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,25): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,43): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,43): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,63): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,63): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,84): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,84): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  iniData.cpp
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(76,15): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(99,18): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(100,19): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(102,17): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(103,17): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(118,15): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,25): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,25): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,43): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,43): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,63): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,63): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,84): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,84): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\iniData.cpp(80,13): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  input.cpp
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(76,15): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(99,18): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(100,19): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(102,17): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(103,17): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(118,15): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,25): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,25): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,43): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,43): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,63): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,63): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,84): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,84): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  inventory.cpp
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(76,15): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(99,18): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(100,19): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(102,17): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(103,17): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(118,15): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,25): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,25): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,43): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,43): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,63): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,63): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,84): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,84): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\inventory.cpp(134,48): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  loading.cpp
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(76,15): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(99,18): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(100,19): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(102,17): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(103,17): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(118,15): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,25): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,25): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,43): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,43): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,63): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,63): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,84): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,84): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\loading.cpp(40,21): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\loading.cpp(41,21): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\loading.cpp(74,21): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\loading.cpp(75,21): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\loading.cpp(191,64): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\loading.cpp(191,57): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\loading.cpp(203,69): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\loading.cpp(203,62): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\loading.cpp(218,43): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\loading.cpp(218,39): warning C4244: '인수': 'unsigned __int64'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  mainGame.cpp
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(76,15): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(99,18): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(100,19): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(102,17): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(103,17): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(118,15): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,25): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,25): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,43): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,43): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,63): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,63): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,84): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,84): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  mushroom.cpp
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(76,15): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(99,18): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(100,19): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(102,17): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(103,17): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(118,15): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,25): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,25): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,43): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,43): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,63): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,63): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,84): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,84): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\mushroom.cpp(45,29): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\mushroom.cpp(46,29): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\mushroom.cpp(47,53): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\mushroom.cpp(47,41): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\mushroom.cpp(279,71): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\mushroom.cpp(279,50): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\mushroom.cpp(283,75): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\mushroom.cpp(283,54): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  octopus.cpp
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(76,15): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(99,18): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(100,19): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(102,17): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(103,17): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(118,15): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,25): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,25): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,43): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,43): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,63): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,63): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,84): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,84): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\octopus.cpp(57,28): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\octopus.cpp(58,28): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\octopus.cpp(59,50): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\octopus.cpp(59,39): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\octopus.cpp(75,62): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\octopus.cpp(75,47): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\octopus.cpp(234,69): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\octopus.cpp(234,49): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\octopus.cpp(241,70): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\octopus.cpp(241,50): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\octopus.cpp(248,72): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\octopus.cpp(248,52): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\octopus.cpp(257,74): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\octopus.cpp(257,54): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\octopus.cpp(261,74): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\octopus.cpp(261,54): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\octopus.cpp(265,74): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\octopus.cpp(265,54): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  player.cpp
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(76,15): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(99,18): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(100,19): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(102,17): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(103,17): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(118,15): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,25): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,25): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,43): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,43): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,63): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,63): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,84): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,84): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  playerData.cpp
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(76,15): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(99,18): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(100,19): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(102,17): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(103,17): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(118,15): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,25): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,25): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,43): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,43): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,63): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,63): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,84): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,84): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  progressBar.cpp
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(76,15): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(99,18): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(100,19): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(102,17): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(103,17): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(118,15): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,25): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,25): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,43): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,43): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,63): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,63): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,84): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,84): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\progressBar.cpp(16,37): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\progressBar.cpp(17,39): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\progressBar.cpp(20,41): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\progressBar.cpp(20,33): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\progressBar.cpp(20,29): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\progressBar.cpp(20,25): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\progressBar.cpp(34,41): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\progressBar.cpp(34,33): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\progressBar.cpp(34,29): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\progressBar.cpp(34,25): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\progressBar.cpp(41,43): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\progressBar.cpp(41,39): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\progressBar.cpp(44,54): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\progressBar.cpp(44,44): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\progressBar.cpp(44,40): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  random.cpp
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(76,15): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(99,18): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(100,19): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(102,17): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(103,17): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(118,15): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,25): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,25): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,43): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,43): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,63): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,63): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,84): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,84): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  sceneManager.cpp
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(76,15): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(99,18): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(100,19): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(102,17): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(103,17): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(118,15): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,25): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,25): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,43): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,43): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,63): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,63): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,84): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,84): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\sceneManager.cpp(33,6): warning C4101: 'a' :참조되지 않은 지역 변수입니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\sceneManager.cpp(34,8): warning C4101: 'b' :참조되지 않은 지역 변수입니다.
+  soundManager.cpp
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(76,15): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(99,18): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(100,19): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(102,17): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(103,17): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(118,15): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,25): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,25): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,43): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,43): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,63): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,63): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,84): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,84): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  stdafx.cpp
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(76,15): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(99,18): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(100,19): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(102,17): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(103,17): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(118,15): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,25): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,25): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,43): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,43): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,63): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,63): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,84): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,84): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\iniData.cpp(60): warning C4172: 지역 변수 또는 임시: data의 주소를 반환하고 있습니다.
+  컴파일하고 있습니다...
+  utility.cpp
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(76,15): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(99,18): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(100,19): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(102,17): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(103,17): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(118,15): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,25): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,25): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,43): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,43): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,63): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,63): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,84): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,84): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  winMain.cpp
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(76,15): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(99,18): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(100,19): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(102,17): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(103,17): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(118,15): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,25): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,25): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,43): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,43): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,63): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,63): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,84): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\commonMacroFunction.h(124,84): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\winMain.cpp(95,16): warning C4244: 'return': 'WPARAM'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+soundManager.obj : error LNK2019: FMOD_System_Create 외부 기호(참조 위치: "enum FMOD_RESULT __cdecl FMOD::System_Create(class FMOD::System * *)" (?System_Create@FMOD@@YA?AW4FMOD_RESULT@@PEAPEAVSystem@1@@Z) 함수)에서 확인하지 못했습니다.
+soundManager.obj : error LNK2019: "public: enum FMOD_RESULT __cdecl FMOD::System::release(void)" (?release@System@FMOD@@QEAA?AW4FMOD_RESULT@@XZ) 외부 기호(참조 위치: "public: void __cdecl soundManager::release(void)" (?release@soundManager@@QEAAXXZ) 함수)에서 확인하지 못했습니다.
+soundManager.obj : error LNK2019: "public: enum FMOD_RESULT __cdecl FMOD::System::init(int,unsigned int,void *)" (?init@System@FMOD@@QEAA?AW4FMOD_RESULT@@HIPEAX@Z) 외부 기호(참조 위치: "public: long __cdecl soundManager::init(void)" (?init@soundManager@@QEAAJXZ) 함수)에서 확인하지 못했습니다.
+soundManager.obj : error LNK2019: "public: enum FMOD_RESULT __cdecl FMOD::System::close(void)" (?close@System@FMOD@@QEAA?AW4FMOD_RESULT@@XZ) 외부 기호(참조 위치: "public: void __cdecl soundManager::release(void)" (?release@soundManager@@QEAAXXZ) 함수)에서 확인하지 못했습니다.
+soundManager.obj : error LNK2019: "public: enum FMOD_RESULT __cdecl FMOD::System::update(void)" (?update@System@FMOD@@QEAA?AW4FMOD_RESULT@@XZ) 외부 기호(참조 위치: "public: void __cdecl soundManager::update(void)" (?update@soundManager@@QEAAXXZ) 함수)에서 확인하지 못했습니다.
+soundManager.obj : error LNK2019: "public: enum FMOD_RESULT __cdecl FMOD::System::createSound(char const *,unsigned int,struct FMOD_CREATESOUNDEXINFO *,class FMOD::Sound * *)" (?createSound@System@FMOD@@QEAA?AW4FMOD_RESULT@@PEBDIPEAUFMOD_CREATESOUNDEXINFO@@PEAPEAVSound@2@@Z) 외부 기호(참조 위치: "public: void __cdecl soundManager::addSound(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,bool,bool)" (?addSound@soundManager@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0_N1@Z) 함수)에서 확인하지 못했습니다.
+soundManager.obj : error LNK2019: "public: enum FMOD_RESULT __cdecl FMOD::System::createStream(char const *,unsigned int,struct FMOD_CREATESOUNDEXINFO *,class FMOD::Sound * *)" (?createStream@System@FMOD@@QEAA?AW4FMOD_RESULT@@PEBDIPEAUFMOD_CREATESOUNDEXINFO@@PEAPEAVSound@2@@Z) 외부 기호(참조 위치: "public: void __cdecl soundManager::addSound(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,bool,bool)" (?addSound@soundManager@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0_N1@Z) 함수)에서 확인하지 못했습니다.
+soundManager.obj : error LNK2019: "public: enum FMOD_RESULT __cdecl FMOD::System::playSound(enum FMOD_CHANNELINDEX,class FMOD::Sound *,bool,class FMOD::Channel * *)" (?playSound@System@FMOD@@QEAA?AW4FMOD_RESULT@@W4FMOD_CHANNELINDEX@@PEAVSound@2@_NPEAPEAVChannel@2@@Z) 외부 기호(참조 위치: "public: void __cdecl soundManager::play(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,float)" (?play@soundManager@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@M@Z) 함수)에서 확인하지 못했습니다.
+soundManager.obj : error LNK2019: "public: enum FMOD_RESULT __cdecl FMOD::Sound::release(void)" (?release@Sound@FMOD@@QEAA?AW4FMOD_RESULT@@XZ) 외부 기호(참조 위치: "public: void __cdecl soundManager::release(void)" (?release@soundManager@@QEAAXXZ) 함수)에서 확인하지 못했습니다.
+soundManager.obj : error LNK2019: "public: enum FMOD_RESULT __cdecl FMOD::Channel::stop(void)" (?stop@Channel@FMOD@@QEAA?AW4FMOD_RESULT@@XZ) 외부 기호(참조 위치: "public: void __cdecl soundManager::release(void)" (?release@soundManager@@QEAAXXZ) 함수)에서 확인하지 못했습니다.
+soundManager.obj : error LNK2019: "public: enum FMOD_RESULT __cdecl FMOD::Channel::setPaused(bool)" (?setPaused@Channel@FMOD@@QEAA?AW4FMOD_RESULT@@_N@Z) 외부 기호(참조 위치: "public: void __cdecl soundManager::pause(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?pause@soundManager@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 함수)에서 확인하지 못했습니다.
+soundManager.obj : error LNK2019: "public: enum FMOD_RESULT __cdecl FMOD::Channel::getPaused(bool *)" (?getPaused@Channel@FMOD@@QEAA?AW4FMOD_RESULT@@PEA_N@Z) 외부 기호(참조 위치: "public: bool __cdecl soundManager::isPauseSound(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?isPauseSound@soundManager@@QEAA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 함수)에서 확인하지 못했습니다.
+soundManager.obj : error LNK2019: "public: enum FMOD_RESULT __cdecl FMOD::Channel::setVolume(float)" (?setVolume@Channel@FMOD@@QEAA?AW4FMOD_RESULT@@M@Z) 외부 기호(참조 위치: "public: void __cdecl soundManager::play(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,float)" (?play@soundManager@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@M@Z) 함수)에서 확인하지 못했습니다.
+soundManager.obj : error LNK2019: "public: enum FMOD_RESULT __cdecl FMOD::Channel::isPlaying(bool *)" (?isPlaying@Channel@FMOD@@QEAA?AW4FMOD_RESULT@@PEA_N@Z) 외부 기호(참조 위치: "public: bool __cdecl soundManager::isPlaySound(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?isPlaySound@soundManager@@QEAA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 함수)에서 확인하지 못했습니다.
+MSVCRTD.lib(exe_main.obj) : error LNK2019: main 외부 기호(참조 위치: "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 함수)에서 확인하지 못했습니다.
+SOUND\lib\fmodex_vc.lib : warning LNK4272: 'x86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\Users\goodd\source\repos\팀프로젝트\내꺼\x64\Debug\Zelda_Default.exe : fatal error LNK1120: 15개의 확인할 수 없는 외부 참조입니다.
