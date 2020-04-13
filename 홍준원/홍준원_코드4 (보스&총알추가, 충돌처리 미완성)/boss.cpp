@@ -56,7 +56,7 @@ void boss::update()
 		boss.fireFrameX = boss.fireFrameY = 0;
 		boss._state = BOSS_IDLE;
 		boss._direction = RANDOM->Range(0, 1);
-		boss.destroyX = boss.destroyY = 0;
+		boss.telFrameX = boss.telFrameY = 0;
 		boss._count = 0;
 		boss._dead = 0;
 		_boss.push_back(boss);
@@ -83,22 +83,22 @@ void boss::update()
 			_boss[i].y = WINSIZEY - 64;
 		}
 
-		if (_boss[i].frameX > 26)
-		{
-			_boss[i].x += cosf(_boss[i]._angle) * _boss[i]._speed;
-			_boss[i].y += -sinf(_boss[i]._angle) * _boss[i]._speed;
-		}
 		
+		_boss[i]._count++;
 
 		//보스가 살아있을 때
 		if (_boss[i]._hp > 0)
 		{
-			_boss[i]._count++;
+			
 			_boss[i]._rc = RectMakeCenter(_boss[i].x, _boss[i].y + 30, 300, 400);	//렉트 위치 이미지기준 업데이트
 			//버섯방향 (아래쪽)
 			if (_boss[i]._state == BOSS_IDLE)
 			{
-				
+				if (_boss[i].frameX > 26)
+				{
+					_boss[i].x += cosf(_boss[i]._angle) * _boss[i]._speed;
+					_boss[i].y += -sinf(_boss[i]._angle) * _boss[i]._speed;
+				}
 				if (!_boss[i]._direction)			//보스 이동각도
 				{
 					_boss[i]._angle += 0.03f;
@@ -120,51 +120,111 @@ void boss::update()
 			{
 				_boss[i]._state = BOSS_FIREBALL;
 			}
-			switch (_boss[i]._state)				//보스 상태
+			if (_boss[i]._hp < 10000)			// 2페이즈
 			{
-			case(BOSS_IDLE):
-				if (_boss[i]._count % 10 == 0)
+				if (_boss[i]._count % 1100 == 0)
 				{
-					_boss[i].frameX++;
-					if (_boss[i].frameX > 31)		//보스 방향 초기화
-					{
-						_boss[i].frameX = 27;
-					}
+					_missileE->fire(_boss[i].x, _boss[i].y, PI_2);
 				}
-				break;
-			case(BOSS_FIREBALL):
-				if (_boss[i]._count % 20 == 0)
+			}
+			if (_boss[i]._hp < 5000)			// 3페이즈
+			{
+				if (_boss[i]._count % 1300 == 0)
 				{
-					_boss[i].fireFrameX++;
-					if (_boss[i].fireFrameX > 5)
-					{
-						_boss[i].fireFrameX = 0;
-						_missileE2->fire(_boss[i].x,_boss[i].y,PI2);
-						_missile->fire(_boss[i].x, _boss[i].y, PI_4);
-						_missileE2->fire(_boss[i].x, _boss[i].y, PI_2);
-						_missile->fire(_boss[i].x, _boss[i].y, PI * 0.8);
-						_missileE2->fire(_boss[i].x, _boss[i].y, PI);
-						_missile->fire(_boss[i].x, _boss[i].y, -(PI_4));
-						_missileE2->fire(_boss[i].x, _boss[i].y, -(PI_2));
-						_missile->fire(_boss[i].x, _boss[i].y, -(PI * 0.8));
-						//_missileE->fire(_boss[i].x, _boss[i].y, PI_2);
-						_boss[i]._state = BOSS_IDLE;
-					}
+					_missileE2->fire(_boss[i].x, _boss[i].y, PI2);
+					_missileE2->fire(_boss[i].x, _boss[i].y, PI_2);
+					_missileE2->fire(_boss[i].x, _boss[i].y, PI);
+					_missileE2->fire(_boss[i].x, _boss[i].y, -(PI_2));
 				}
-				break;
-			case(BOSS_TELESTART):
-				break;
-			case(BOSS_TELEEND):
-				break;
-			case(BOSS_DEAD):
-				break;
+				if (_boss[i]._count % 1000 == 0)
+				{
+					_boss[i]._state = BOSS_TELESTART;
+				}
+			}
+
+
+			//플레이어 공격과 충돌
+			RECT temp;
+			if (IntersectRect(&temp, &_playerAdress->getAttack(), &_boss[i]._rc))
+			{
+				_boss[i]._hp -= 100;			//플레이어 공격력이어야함
 			}
 		}
-		if (_boss[i]._hp < 10000)			// 2페이즈
+		//보스 죽음
+		else if (_boss[i]._hp <= 0)
 		{
-
+			_boss[i]._hp = 0;
+			_boss[i]._state = BOSS_DEAD;
+			//_boss[i].frameX = 31;
 		}
 		
+		switch (_boss[i]._state)				//보스 상태
+		{
+		case(BOSS_IDLE):
+			if (_boss[i]._count % 9 == 0)
+			{
+				_boss[i].frameX++;
+				if (_boss[i].frameX > 31)		//보스 방향 초기화
+				{
+					_boss[i].frameX = 27;
+				}
+			}
+			break;
+		case(BOSS_FIREBALL):
+			if (_boss[i]._count % 20 == 0)
+			{
+				_boss[i].fireFrameX++;
+				if (_boss[i].fireFrameX > 5)
+				{
+					_boss[i].fireFrameX = 0;
+					_missile->fire(_boss[i].x, _boss[i].y, PI2);
+					_missile->fire(_boss[i].x, _boss[i].y, PI_4);
+					_missile->fire(_boss[i].x, _boss[i].y, PI_2);
+					_missile->fire(_boss[i].x, _boss[i].y, PI * 0.8);
+					_missile->fire(_boss[i].x, _boss[i].y, PI);
+					_missile->fire(_boss[i].x, _boss[i].y, -(PI_4));
+					_missile->fire(_boss[i].x, _boss[i].y, -(PI_2));
+					_missile->fire(_boss[i].x, _boss[i].y, -(PI * 0.8));
+					_boss[i]._state = BOSS_IDLE;
+				}
+			}
+			break;
+		case(BOSS_TELESTART):
+			if (_boss[i]._count % 10 == 0)
+			{
+				_boss[i].telFrameX++;
+				if (_boss[i].telFrameX > 6)
+				{
+					_boss[i].telFrameX = 0;
+					_boss[i].x = RANDOM->Range(0, WINSIZEX - 480);
+					_boss[i].y = RANDOM->Range(0, WINSIZEY - 512);
+					_boss[i]._state = BOSS_TELEEND;
+				}
+			}
+			break;
+		case(BOSS_TELEEND):
+			if (_boss[i]._count % 10 == 0)
+			{
+				_boss[i].telFrameX++;
+				if (_boss[i].telFrameX > 7)
+				{
+					_boss[i].telFrameX = 0;
+					_boss[i]._state = BOSS_IDLE;
+				}
+			}
+			break;
+		case(BOSS_DEAD):
+			if (_boss[i]._count % 10 == 0)
+			{
+				_boss[i].frameX--;
+				if (_boss[i].frameX < 0)
+				{
+					_boss[i].frameX = 0;
+					_boss.erase(_boss.begin() + i);
+				}
+			}
+			break;
+		}
 		
 	}
 	// missile 클래스 업데이트
@@ -187,11 +247,15 @@ void boss::render()
 		}
 		else if (_boss[i]._state == BOSS_TELESTART)
 		{
-			IMAGEMANAGER->frameRender("텔레포트시작", getMemDC(), _boss[i]._rc.left - 45, _boss[i]._rc.top - 90, _boss[i].frameX, 0);
+			IMAGEMANAGER->frameRender("텔레포트시작", getMemDC(), _boss[i]._rc.left - 90, _boss[i]._rc.top - 74, _boss[i].telFrameX, 0);
 		}
 		else if (_boss[i]._state == BOSS_TELEEND)
 		{
-			IMAGEMANAGER->frameRender("텔레포트도착", getMemDC(), _boss[i]._rc.left - 45, _boss[i]._rc.top - 90, _boss[i].frameX, 0);
+			IMAGEMANAGER->frameRender("텔레포트도착", getMemDC(), _boss[i]._rc.left - 90, _boss[i]._rc.top - 74, _boss[i].telFrameX, 0);
+		}
+		else if (_boss[i]._state == BOSS_DEAD)
+		{
+			IMAGEMANAGER->frameRender("보스기본", getMemDC(), _boss[i]._rc.left - 45, _boss[i]._rc.top - 90, _boss[i].frameX, 0);
 		}
 	}
 

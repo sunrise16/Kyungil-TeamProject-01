@@ -360,6 +360,51 @@ void player::update()
 		}
 	}
 
+	// 보스 파이어볼 피격
+	if (!_bossAdress->getMissile()->getBullet().empty())
+	{
+		for (int i = 0; i < _bossAdress->getMissile()->getBullet().size(); i++)
+		{
+			if (IntersectRect(&empty, &playerRc, &_bossAdress->getMissile()->getBullet()[i].rc))
+			{
+				_bossAdress->getMissile()->setBullet(i, false);
+				_bossAdress->getMissile()->eraseBullet(i);
+				playerGetAtk = true;
+				playerState = PLAYER_STATE_GETATK;
+			}
+		}
+	}
+
+	// 보스 아이쉴드 피격
+	if (!_bossAdress->getMissileE()->getBullet().empty())
+	{
+		for (int i = 0; i < _bossAdress->getMissileE()->getBullet().size(); i++)
+		{
+			if (IntersectRect(&empty, &playerRc, &_bossAdress->getMissileE()->getBullet()[i].rc))
+			{
+				_bossAdress->getMissileE()->setBullet(i, false);
+				_bossAdress->getMissileE()->eraseBullet(i);
+				playerGetAtk = true;
+				playerState = PLAYER_STATE_GETATK;
+			}
+		}
+	}
+
+	// 보스 아이쉴드 피격
+	if (!_bossAdress->getMissileE2()->getBullet().empty())
+	{
+		for (int i = 0; i < _bossAdress->getMissileE2()->getBullet().size(); i++)
+		{
+			if (IntersectRect(&empty, &playerRc, &_bossAdress->getMissileE2()->getBullet()[i].rc))
+			{
+				_bossAdress->getMissileE2()->setBullet(i, false);
+				_bossAdress->getMissileE2()->eraseBullet(i);
+				playerGetAtk = true;
+				playerState = PLAYER_STATE_GETATK;
+			}
+		}
+	}
+
 	// 버섯과의 피격
 	if (!_mushroomAdress->getMushroom().empty())
 	{
