@@ -36,8 +36,7 @@ enum TERRAIN
 // 오브젝트
 enum OBJECT
 {
-	//BLOCK 종류 1 = 아래 일부 지나가는거 불가 / 2 = 절반 불가 / 3 
-	OBJ_CARPET, OBJ_WALL,
+	OBJ_CARPET,
 	OBJ_BLOCK1, OBJ_BLOCK2, OBJ_BLOCK3, OBJ_BLOCKS,
 	OBJ_LINK, OBJ_BOSS, OBJ_MOB1, OBJ_MOB2,
 	OBJ_NONE
@@ -48,7 +47,7 @@ enum MAPTOOL_MENU
 	MENU_HOUSE,
 	MENU_TOWN,
 	MENU_BOSS,
-	MENU_AUTO,
+	MENU_HOME,
 	MENU_CHAR
 };
 
@@ -74,24 +73,15 @@ struct tagSampleTile
 	RECT rc;
 	int terrainFrameX;
 	int terrainFrameY;
-	int startX, startY;
-	int endX, endY;
-};
-
-struct tagDragTile
-{
-	int left, right, top, bottom;
-	int startX;
-	int startY;
-	int Width;
-	int Height;
-	int EndX;
-	int EndY;
-	bool isDrag;
 };
 
 // 현재 타일 구조체
 struct tagCurrentTile
 {
 	int x, y;
+};
+
+struct tagTileData
+{
+	tagTile tile[MAP_TILEY][MAP_TILEX];
 };

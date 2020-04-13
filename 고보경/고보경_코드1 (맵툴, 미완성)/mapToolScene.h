@@ -9,6 +9,23 @@ struct CAMERA {
 	RECT rc;
 };
 
+//===========================================================================//
+//
+//	TAB 키 : 맵툴 UI 올라오고 내려가고함
+//	E키 : ERASER키 (오브젝트 지우는 키)		==> 키가 씹히는 경우 존재
+//	R키 : ERASER키 (타일 지우는 키)		==> 키가 씹히는 경우 존재
+//	W, A, S, D : 화면 이동키
+//	
+// ***** 샘플 타일에서 드래그 한 후에 계속 클릭해서 생성 가능(PTMOUSE 기준으로 생성됨)
+// ***** 드래그 푸는 키 : SPACE 키
+//
+// 타일(_tiles)에서 드래그 하면 그 범위에 선택한 샘플 타일 1개가 드래그 범위에 복사됨.
+// 샘플 타일(_sampleTile)에서 드래그 하면 그 범위만큼 타일에 입힐 수 있다.
+//
+//===========================================================================//
+
+
+
 // mapToolScene 클래스
 class mapToolScene : public gameNode
 {
@@ -29,10 +46,9 @@ private:
 	int _dragRectStartBottom;
 	int _dragRectWidth;
 	int _dragRectHeight;
-
-	tagSampleTile _dragTiles;
-	tagSampleTile _dragTile[TILEMAPSIZEY][TILEMAPSIZEX];
-
+ 
+	vector<tagSampleTile> _dragT;			// 드래그한 샘플타일 이미지 좌표값 저장하는 vector
+	RECT _drag;								// 드래그용 렉트(샘플타일 드래그하면 이 렉트가 마우스 좌표에 나옵니다)
 
 	//메뉴 구분 구분
 	MAPTOOL_MENU _menu;
@@ -88,7 +104,7 @@ private:
 	bool tilerectOn;	// 드래그용
 	bool dragOnSample;	
 	bool dragSelectedSample;	
-	bool dragOn;
+	bool dragOn;		// 샘플 타일 드래그 범위 그리는용
 	bool noSample;		// MENU_AUTO, MENU_CHAR용
 
 	char str[128];
