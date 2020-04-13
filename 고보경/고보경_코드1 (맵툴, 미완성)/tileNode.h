@@ -10,6 +10,9 @@
 #define TILEMAPSIZEX 11
 #define TILEMAPSIZEY 4
 
+#define CAMERA_TILEX WINSIZEX/TILESIZE
+#define CAMERA_TILEY WINSIZEY/TILESIZE
+
 // 이미지 타일 (화면 우측 상단에 붙여 놓을 샘플 타일)
 //X SIZE 고정 6 (384pixel)
 
@@ -33,8 +36,7 @@ enum TERRAIN
 // 오브젝트
 enum OBJECT
 {
-	//BLOCK 종류 1 = 아래 일부 지나가는거 불가 / 2 = 절반 불가 / 3 
-	OBJ_CARPET, OBJ_WALL,
+	OBJ_CARPET,
 	OBJ_BLOCK1, OBJ_BLOCK2, OBJ_BLOCK3, OBJ_BLOCKS,
 	OBJ_LINK, OBJ_BOSS, OBJ_MOB1, OBJ_MOB2,
 	OBJ_NONE
@@ -45,7 +47,7 @@ enum MAPTOOL_MENU
 	MENU_HOUSE,
 	MENU_TOWN,
 	MENU_BOSS,
-	MENU_AUTO,
+	MENU_HOME,
 	MENU_CHAR
 };
 
@@ -54,12 +56,15 @@ struct tagTile
 {
 	TERRAIN terrain;
 	OBJECT obj;
-	RECT rc;
+	RECT rc;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
 
+	int x, y;
 	int terrainFrameX;
 	int terrainFrameY;
 	int objFrameX;
 	int objFrameY;
+	//드래그용
+	bool isSelect;
 };
 
 // 이미지 타일 구조체
@@ -74,4 +79,9 @@ struct tagSampleTile
 struct tagCurrentTile
 {
 	int x, y;
+};
+
+struct tagTileData
+{
+	tagTile tile[MAP_TILEY][MAP_TILEX];
 };
