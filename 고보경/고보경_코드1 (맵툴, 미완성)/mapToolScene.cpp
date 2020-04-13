@@ -13,8 +13,9 @@ HRESULT mapToolScene::init()
 	IMAGEMANAGER->addImage("maptool_UI_House","Source/Scroll_UI_House.bmp", 904, 400, true, RGB(255,0,255));
 	IMAGEMANAGER->addImage("maptool_UI_Town", "Source/Scroll_UI_Town.bmp", 904, 400, true, RGB(255,0,255));
 	IMAGEMANAGER->addImage("maptool_UI_Boss", "Source/Scroll_UI_Boss.bmp", 904, 400, true, RGB(255,0,255));
-	IMAGEMANAGER->addImage("maptool_UI_Auto", "Source/Scroll_UI_Auto.bmp", 904, 400, true, RGB(255,0,255));
+	IMAGEMANAGER->addImage("maptool_UI_Home", "Source/Scroll_UI_Home.bmp", 904, 400, true, RGB(255,0,255));
 	IMAGEMANAGER->addImage("maptool_UI_Char", "Source/Scroll_UI_Char.bmp", 904, 400, true, RGB(255,0,255));
+	IMAGEMANAGER->addImage("saveLoad_BG", "Source/topUI_Bar.bmp", WINSIZEX, 64);
 
 	//맵툴 UI 선택 아이콘 (scrollX)
 	IMAGEMANAGER->addFrameImage("maptool_UI_SCROLLS", "Source/Scrolls_UI250x60.bmp", 250, 60, 5, 1);
@@ -42,7 +43,7 @@ HRESULT mapToolScene::init()
 	// OBJ버튼
 	IMAGEMANAGER->addFrameImage("obj_button", "Source/obj_UI.bmp", 66, 64, 1, 2);
 
-
+	ZeroMemory(&_dragT, sizeof(_dragT));
 
 	//스크롤 변수 초기화
 	scrollX = scrollY = 0;
@@ -110,23 +111,36 @@ void mapToolScene::update()
 			upUI = false;
 	
 	}
-	
+	// 타일 지우기
+	if (INPUT->getKeyDown('R'))
+	{
+		_currentTile.x = 0;
+		_currentTile.y = 0;
+		currentCtrl = CTRL_TERRAIN;
+	}
+
 	//LBUTTON으로 타일맵에 세팅
 	if (INPUT->getKey(VK_LBUTTON))
 	{
 		this->setMap();
 	}
-	//샘플 타일 RECT 초기화
-	for (int i = 0; i < TILEMAPSIZEY; i++)
+	if (_menu != MENU_CHAR)
 	{
-		for (int j = 0; j < TILEMAPSIZEX; j++)
+		//샘플 타일 RECT 초기화
+		for (int i = 0; i < TILEMAPSIZEY; i++)
 		{
-			_sampleTile[i][j].rc = RectMake(_rcMapSpace.left + j * TILESIZE, _rcMapSpace.top + i * TILESIZE, TILESIZE, TILESIZE);
+			for (int j = 0; j < TILEMAPSIZEX; j++)
+			{
+				_sampleTile[i][j].rc = RectMake(_rcMapSpace.left + j * TILESIZE, _rcMapSpace.top + i * TILESIZE, TILESIZE, TILESIZE);
+				_sampleTile[i][j].terrainFrameX = j + scrollX;
+				_sampleTile[i][j].terrainFrameY = i + scrollY;
 
-			_sampleTile[i][j].terrainFrameX = j + scrollX;
-			_sampleTile[i][j].terrainFrameY = i + scrollY;
-			
+			}
 		}
+	}
+	else
+	{
+
 	}
 
 	//====================================== 카 메 라 ============================================//
@@ -183,6 +197,7 @@ void mapToolScene::render()
 				IMAGEMANAGER->frameRender("tilemap", getMemDC(), _tiles[i][j].rc.left, _tiles[i][j].rc.top,
 					_tiles[i][j].terrainFrameX, _tiles[i][j].terrainFrameY);
 
+
 				//인게임 맵 오브젝트 렌더
 				if (_tiles[i][j].obj == OBJ_NONE) continue;
 
@@ -193,33 +208,32 @@ void mapToolScene::render()
 	}
 
 	
-	// 왼쪽 게임 화면 및 오른쪽 샘플 타일 RECT 출력
+	// 타일 타입 확인 ( TR_WALL, OBJ_BLOCKS = 빨간색, TR_GRASS = 초록색, TR_WATER = 파란색 )
 	if (INPUT->getToggleKey(VK_F1))
 	{
+		for (int i = 0; i < MAP_TILEY; i++)
+		{
+			for (int j = 0; j < MAP_TILEX; j++)
+			{
+				if (_tiles[i][j].obj == OBJ_CARPET || _tiles[i][j].terrain == TR_GROUND)
+				{
+					FrameRect(getMemDC(), _tiles[i][j].rc, RGB(255, 255, 0));
+				}
+				else if (_tiles[i][j].terrain == TR_GRASS)
+				{
+					FrameRect(getMemDC(), _tiles[i][j].rc, RGB(0, 255, 0));
+				}
+				else if (_tiles[i][j].terrain == TR_WATER)
+				{
+					FrameRect(getMemDC(), _tiles[i][j].rc, RGB(0, 0, 255));
+				}
+				else if (_tiles[i][j].obj == OBJ_BLOCKS || _tiles[i][j].terrain == TR_WALL)
+				{
+					FrameRect(getMemDC(), _tiles[i][j].rc, RGB(255, 0, 0));
+				}
 		
-		//for (int i = 0; i < MAP_TILEY; i++)
-		//{
-		//	for (int j = 0; j < MAP_TILEX; j++)
-		//	{
-		//		if (_tiles[i][j].obj == OBJ_CARPET || _tiles[i][j].terrain == TR_GROUND)
-		//		{
-		//			FrameRect(getMemDC(), _tiles[i][j].rc, RGB(255, 255, 0));
-		//		}
-		//		else if (_tiles[i][j].terrain == TR_GRASS)
-		//		{
-		//			FrameRect(getMemDC(), _tiles[i][j].rc, RGB(0, 255, 0));
-		//		}
-		//		else if (_tiles[i][j].terrain == TR_WATER)
-		//		{
-		//			FrameRect(getMemDC(), _tiles[i][j].rc, RGB(0, 0, 255));
-		//		}
-		//		else if (_tiles[i][j].obj == OBJ_BLOCKS || _tiles[i][j].terrain == TR_WALL)
-		//		{
-		//			FrameRect(getMemDC(), _tiles[i][j].rc, RGB(255, 0, 0));
-		//		}
-		//
-		//	}
-		//}
+			}
+		}
 
 	}
 
@@ -251,8 +265,8 @@ void mapToolScene::render()
 	case MENU_BOSS:
 		IMAGEMANAGER->render("maptool_UI_Boss", getMemDC(), _rcUIBg.left, _rcUIBg.top);
 		break;
-	case MENU_AUTO:
-		IMAGEMANAGER->render("maptool_UI_Auto", getMemDC(), _rcUIBg.left, _rcUIBg.top);
+	case MENU_HOME:
+		IMAGEMANAGER->render("maptool_UI_Home", getMemDC(), _rcUIBg.left, _rcUIBg.top);
 		break;
 	case MENU_CHAR:
 		IMAGEMANAGER->render("maptool_UI_Char", getMemDC(), _rcUIBg.left, _rcUIBg.top);
@@ -260,7 +274,7 @@ void mapToolScene::render()
 	}
 	//메뉴 변경 아이콘(스크롤)
 	IMAGEMANAGER->render("maptool_UI_SCROLLS", getMemDC(), _rcUIBg.left + 100, _rcUIBg.top - 30);
-	if (!(_menu == MENU_AUTO || _menu == MENU_CHAR))
+	if (!(_menu == MENU_CHAR))
 	{
 		IMAGEMANAGER->render("tilemap", getMemDC(), _rcMapSpace.left, _rcMapSpace.top, scrollX * 64, scrollY * 64, 704, MAP_HEIGHT);
 	}
@@ -273,8 +287,7 @@ void mapToolScene::render()
 
 
 	// UI 렌더(항상 가장 아래에)
-	HBRUSH brush = CreateSolidBrush(RGB(0, 0, 0));
-	FillRect(getMemDC(), &_rcSaveLoadBg, brush);
+	IMAGEMANAGER->alphaRender("saveLoad_BG",getMemDC(), 100);
 
 	//UI 버튼 이미지 렌더
 	IMAGEMANAGER->findImage("save_button")->render(getMemDC(), _rcSave.left, _rcSave.top);
@@ -288,9 +301,6 @@ void mapToolScene::render()
 	//OBJ 버튼 (frameImage)
 	if(!objectOn) 	IMAGEMANAGER->findImage("obj_button")->frameRender(getMemDC(), _rcObject.left, _rcObject.top, 0, 1);
 	else 	IMAGEMANAGER->findImage("obj_button")->frameRender(getMemDC(), _rcObject.left, _rcObject.top, 0, 0);
-
-	//RECT 표시용
-	//FrameRect(getMemDC(), IMAGEMANAGER->findImage("maptool_UI_SCROLLS")->boundingBox(), RGB(255, 0, 0));
 
 	//SAVE랑 LOAD누르면 각각 창 나오게
 	if(saveOn) IMAGEMANAGER->findImage("saveload_UI")->render(getMemDC(), _rcSaveBg.left, _rcSaveBg.top);
@@ -310,60 +320,38 @@ void mapToolScene::render()
 	FrameRect(getMemDC(), _rcMinimap, RGB(255, 255, 0));
 	FrameRect(getMemDC(), _rcMinimap_C, RGB(255, 0, 0));
 
-	//표시용 TEXT
-	SetTextColor(getMemDC(), RGB(255, 0, 0));
-	sprintf(str, "startX : %d , startY : %d ", _dragIndexStartX, _dragIndexStartY);
-	TextOut(getMemDC(), 0, 0, str, strlen(str));
-	sprintf(str, "endX : %d , endY : %d ", _dragIndexEndX, _dragIndexEndY);
-	TextOut(getMemDC(), 0, 20, str, strlen(str));
-	sprintf(str, "LEFT : %d , TOP : %d ", _dragRectStartLeft, _dragRectStartTop);
-	TextOut(getMemDC(), 0, 40, str, strlen(str));
-	sprintf(str, "RIGHT : %d , BOTTOM : %d ", _dragRectStartRight, _dragRectStartBottom);
-	TextOut(getMemDC(), 0, 60, str, strlen(str));
-
 	// 샘플 타일 드래그 ================================================//
-	for (int i = 0; i < SAMPLE_TILEY; i++)
+	for (int i = 0; i < TILEMAPSIZEY; i++)
 	{
-		for (int j = 0; j < SAMPLE_TILEX; j++)
+		for (int j = 0; j < TILEMAPSIZEX; j++)
 		{
 			if (IntersectRect(&tmp, &_sampleTile[i][j].rc, &mouseRect) && PtInRect(&_rcUIBg, _ptMouse))
 			{
 				if (!dragOnSample)
 				{
-					_dragIndexStartX = j;
-					_dragIndexStartY = i;
-					_dragRectStartLeft = _sampleTile[i][j].rc.left;
-					_dragRectStartTop = _sampleTile[i][j].rc.top;
+					_dragIndexStartX = j + scrollX;
+					_dragIndexStartY = i + scrollY;
+					_dragRectStartLeft = _sampleTile[_dragIndexStartY][_dragIndexStartX].rc.left;
+					_dragRectStartTop = _sampleTile[_dragIndexStartY][_dragIndexStartX].rc.top;
 					dragOnSample = true;
 				}
 				else
 				{
-					_dragIndexEndX = j;
-					_dragIndexEndY = i;
-					_dragRectStartRight = _sampleTile[i][j].rc.right;
-					_dragRectStartBottom = _sampleTile[i][j].rc.bottom;
+					_dragIndexEndX = j + scrollX;
+					_dragIndexEndY = i + scrollY;
+					_dragRectStartRight = _sampleTile[_dragIndexEndY][_dragIndexEndX].rc.right;
+					_dragRectStartBottom = _sampleTile[_dragIndexEndY][_dragIndexEndX].rc.bottom;
 					_dragRectWidth = _dragRectStartRight - _dragRectStartLeft;
 					_dragRectHeight = _dragRectStartBottom - _dragRectStartTop;
 				}
 			}
-			
 		}
 	}
 
-	if (dragSelectedSample)
+	if (dragOn)
 	{
-		FrameRect(getMemDC(), _dragTiles.rc, RGB(100, 100, 255));
-
-		for (int i = 0; i < _dragTiles.endY - _dragTiles.startY + 1; i++)
-		{
-			for (int j = 0; i < _dragTiles.startX - _dragTiles.endX + 1; j++)
-			{
-				IMAGEMANAGER->frameRender("tilemap", getMemDC(), _ptMouse.x, _ptMouse.y,
-					_dragTile[i][j].terrainFrameX, _dragTile[i][j].terrainFrameY);
-			}
-		}
+		FrameRect(getMemDC(), _drag, RGB(255, 255, 0));
 	}
-	
 }
 
 void mapToolScene::setMap()
@@ -398,48 +386,81 @@ void mapToolScene::setMap()
 				|| PtInRect(&IMAGEMANAGER->findImage("maptool_UI_SCROLLS")->boundingBox(), _ptMouse)
 				|| PtInRect(&_rcSaveBg, _ptMouse) || PtInRect(&_rcLoadBg, _ptMouse)))
 			{
-				//if ()
-				//{
-				//
-				//}
-				//else
-				//{
-				//	
-				//}
-				if (PtInRect(&_tiles[i][j].rc, _ptMouse) || _tiles[i][j].isSelect)
+				if (_dragT.empty())
 				{
-					if (_ctrlSelect == CTRL_ERASER)
+					if (PtInRect(&_tiles[i][j].rc, _ptMouse) || _tiles[i][j].isSelect)
 					{
-						_tiles[i][j].objFrameX = 0;
-						_tiles[i][j].objFrameY = 0;
-						_tiles[i][j].obj = OBJ_NONE;
-						_tiles[i][j].isSelect = false;
-					}
-					else
-					{
-						// 현재 버튼에 따라 타일 생성
-						if (currentCtrl == CTRL_TERRAIN)
+						if (_ctrlSelect == CTRL_ERASER)
 						{
-							_tiles[i][j].terrainFrameX = _currentTile.x;
-							_tiles[i][j].terrainFrameY = _currentTile.y;
-							_tiles[i][j].terrain = terrainSelect(_currentTile.x, _currentTile.y);
+							_tiles[i][j].objFrameX = 0;
+							_tiles[i][j].objFrameY = 0;
+							_tiles[i][j].obj = OBJ_NONE;
 							_tiles[i][j].isSelect = false;
 						}
-
-						if (currentCtrl == CTRL_OBJECT)
+						else
 						{
-							_tiles[i][j].objFrameX = _currentTile.x;
-							_tiles[i][j].objFrameY = _currentTile.y;
-							_tiles[i][j].obj = objectSelect(_currentTile.x, _currentTile.y);
-							_tiles[i][j].isSelect = false;
+							// 현재 버튼에 따라 타일 생성
+							if (currentCtrl == CTRL_TERRAIN)
+							{
+								_tiles[i][j].terrainFrameX = _currentTile.x;
+								_tiles[i][j].terrainFrameY = _currentTile.y;
+								_tiles[i][j].terrain = terrainSelect(_currentTile.x, _currentTile.y);
+								_tiles[i][j].isSelect = false;
+							}
+
+							if (currentCtrl == CTRL_OBJECT)
+							{
+								_tiles[i][j].objFrameX = _currentTile.x;
+								_tiles[i][j].objFrameY = _currentTile.y;
+								_tiles[i][j].obj = objectSelect(_currentTile.x, _currentTile.y);
+								_tiles[i][j].isSelect = false;
+							}
+
 						}
 
 					}
-
 				}
+				else
+				{
+					if (PtInRect(&_tiles[i][j].rc, _ptMouse))
+					{
+						int x = j;
+						int y = i;
+						for (int k = 0; k < _dragT.size(); k++)
+						{
+							if (x == j + abs(_dragIndexEndX - _dragIndexStartX) + 1)
+							{
+								x = j;
+								y++;
+							}
+							if (objectOn)
+							{
+								_tiles[y][x].objFrameX = _dragT[k].terrainFrameX;
+								_tiles[y][x].objFrameY = _dragT[k].terrainFrameY;
+								_tiles[y][x].obj = objectSelect(_dragT[k].terrainFrameX, _dragT[k].terrainFrameY);
+							}
+							else
+							{
+								_tiles[y][x].terrainFrameX = _dragT[k].terrainFrameX;
+								_tiles[y][x].terrainFrameY = _dragT[k].terrainFrameY;
+								_tiles[y][x].terrain = terrainSelect(_dragT[k].terrainFrameX, _dragT[k].terrainFrameY);
+							}
+							_tiles[y][x].isSelect = false;
+
+							x++;
+							if (y > i + abs(_dragIndexEndY - _dragIndexStartY) + 1) break;
+						}
+						break;
+					}
+					
+				}
+				
 			}
+
 		}
 	}
+
+	
 }
 // 맵툴 세팅
 void mapToolScene::mapToolSetup()
@@ -639,7 +660,9 @@ TERRAIN mapToolScene::terrainSelect(int frameX, int frameY)
 	}
 	// 잔디
 	if ((frameX < 20 && frameX >= 5 && frameY < 8 && frameY >= 4) || 
-		(frameX < 5 && frameY == 7) || (frameX < 5 && frameY < 12 && frameY >= 8))
+		(frameX < 27 && frameY == 7) || (frameX < 5 && frameY < 12 && frameY >= 8)
+		|| (frameX > 18 && frameX < 24 && frameY == 6)
+		|| ((frameX == 20 || frameX == 21) && (frameY == 4| frameY ==5)))
 	{
 		return TR_GRASS;
 	}
@@ -671,16 +694,9 @@ void mapToolScene::input()
 	// 오브젝트 지우기(ERASE 버튼 클릭해도 됨)
 	if (INPUT->getKeyDown('E'))
 	{
-		if(!eraseOn) eraseOn = true;
-		else eraseOn = false;
+		eraseOn = true;
 	}
-	// 타일 지우기
-	if (INPUT->getKeyDown('R'))
-	{
-		_currentTile.x = 0;
-		_currentTile.y = 0;
-		currentCtrl = CTRL_TERRAIN;
-	}
+	
 	//LBUTTON 입력 관련
 	if (INPUT->getKeyDown(VK_LBUTTON))
 	{
@@ -693,15 +709,20 @@ void mapToolScene::input()
 				switch (_menu)
 				{
 				case MENU_HOUSE:
+					scrollX = 0;
 					scrollY = 12;
 					break;
 				case MENU_TOWN:
+					scrollX = 0;
 					scrollY = 16;
 					break;
 				case MENU_BOSS:
+					scrollX = 0;
 					scrollY = 20;
 					break;
-				case MENU_AUTO:
+				case MENU_HOME:
+					scrollX = 29;
+					scrollY = 0;
 					break;
 				case MENU_CHAR:
 					break;
@@ -724,10 +745,6 @@ void mapToolScene::input()
 					scrollX = 0;
 					scrollY = 8;
 					break;
-				case MENU_AUTO:
-					break;
-				case MENU_CHAR:
-					break;
 				}
 			}
 		}
@@ -735,7 +752,12 @@ void mapToolScene::input()
 		// 스크롤 X, 스크롤 Y (아직 제대로 예외처리 안함)
 		if (PtInRect(&_rcArrowLeft, _ptMouse))
 		{
-			if (scrollX > 0)
+			if (_menu == MENU_HOME)
+			{
+				if (scrollX > 29)
+					scrollX--;
+			}
+			else if (scrollX > 0)
 			{
 				scrollX--;
 			}
@@ -744,8 +766,26 @@ void mapToolScene::input()
 		{
 			if (scrollY <= 11)
 			{
-				if (scrollX < 21)
-					scrollX++;
+				if (scrollY < 4 && _menu != MENU_HOME)
+				{
+					if (scrollX < 18)
+						scrollX++;
+				}
+				else if (_menu == MENU_HOME)
+				{
+					if (scrollX < 36)
+						scrollX++;
+				}
+				else if (_menu = MENU_TOWN)
+				{
+					if (scrollX < 29)
+						scrollX++;
+				}
+				else
+				{
+					if (scrollX < 21)
+						scrollX++;
+				}
 			}
 			else
 			{
@@ -834,12 +874,13 @@ void mapToolScene::input()
 		}
 		else if (PtInRect(&icon[3], _ptMouse))
 		{
-			scrollX = 0;
-			_menu = MENU_AUTO;
+			scrollX = 29;
+			scrollY = 0;
+			_menu = MENU_HOME;
 			if (!upUI)
 				upUI = true;
-			if (objectOn)
-				objectOn = false;
+			if (!objectOn)
+				objectOn = true;
 		}
 		else if (PtInRect(&icon[4], _ptMouse))
 		{
@@ -865,7 +906,6 @@ void mapToolScene::drag()
 		if (!tilerectOn)
 		{
 			tilerectOn = true;
-			//dragOn = false;
 			mouseT.x = _ptMouse.x;
 			mouseT.y = _ptMouse.y;
 		}
@@ -886,30 +926,40 @@ void mapToolScene::drag()
 	if (INPUT->getKeyUp(VK_RBUTTON))
 	{
 		tilerectOn = false;
-		//if(dragOnSample) dragOn = true;
-		_dragTiles.rc = RectMake(_dragRectStartLeft, _dragRectStartTop, _dragRectWidth, _dragRectHeight);
-		_dragTiles.startX = _dragIndexStartX;
-		_dragTiles.startY = _dragIndexStartY;
-		_dragTiles.endX = _dragIndexEndX;
-		_dragTiles.endY = _dragIndexEndY;
-		dragOnSample = false;
-		dragSelectedSample = true;
+		if (dragOnSample)
+		{
+			dragOn = true;
+			_dragT.clear();
+			for (int i = 0; i < abs(_dragIndexEndY - _dragIndexStartY) + 1; i++)
+			{
+				for (int j = 0; j < abs(_dragIndexEndX - _dragIndexStartX) + 1; j++)
+				{
+					tagSampleTile tmp;
+					ZeroMemory(&tmp, sizeof(tagSampleTile));
+					tmp.rc = RectMake(j * TILESIZE, i * TILESIZE, TILESIZE, TILESIZE);
+					tmp.terrainFrameX = _dragIndexStartX + j;
+					tmp.terrainFrameY = _dragIndexStartY + i;
+					_dragT.push_back(tmp);
+				}
+			}
+			dragOnSample = false;
+		}
 		mouseRect = RectMake(0, 0, 0, 0);
 	}
 
-	if (dragSelectedSample)
+	if (dragOn)
 	{
-		for (int i = 0; i < _dragTiles.endY - _dragTiles.startY + 1; i++)
+		_drag = RectMake(_ptMouse.x, _ptMouse.y, (abs(_dragIndexEndX - _dragIndexStartX) + 1) * 64, (abs(_dragIndexEndY - _dragIndexStartY) + 1) * 64);
+		if (INPUT->getKeyDown(VK_SPACE))
 		{
-			for (int j = 0; i < _dragTiles.startX - _dragTiles.endX + 1; j++)
-			{
-				_dragTile[i][j].rc = RectMake(j * TILESIZE, i * TILESIZE, TILESIZE, TILESIZE);
-				_dragTile[i][j].terrainFrameX = _sampleTile[_dragTiles.startY + i][_dragTiles.startX + j].terrainFrameX;
-				_dragTile[i][j].terrainFrameY = _sampleTile[_dragTiles.startY + i][_dragTiles.startX + j].terrainFrameY;
-			}
+			dragOn = false;
 		}
 	}
-
+	else
+	{
+		_dragT.clear();
+		_drag = RectMake(0, 0, 0, 0);
+	}
 }
 
 void mapToolScene::saveloadRectSet()
