@@ -30,7 +30,7 @@ struct tagBoss
 	int frameX, frameY;
 	int fireFrameX, fireFrameY;
 	int _state;
-	int destroyX, destroyY;
+	int telFrameX, telFrameY;
 	bool _direction;
 };
 

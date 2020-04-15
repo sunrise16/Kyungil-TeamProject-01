@@ -331,7 +331,7 @@ void missileE::render()
 	{
 		if (!_vBullet[i].fire) continue;
 		//_vBullet[i].bulletImage->render(getMemDC(), _vBullet[i].rc.left, _vBullet[i].rc.top);
-		_vBullet[i].bulletImage->frameRender(getMemDC(), _vBullet[i].rc.left, _vBullet[i].rc.top - 50, frameX[i], frameY[i]);
+		_vBullet[i].bulletImage->frameRender(getMemDC(), _vBullet[i].rc.left - 30, _vBullet[i].rc.top - 50, frameX[i], frameY[i]);
 		Rectangle(getMemDC(), _vBullet[i].rc);
 		_count++;
 		if (_count % 5 == 0)
@@ -360,7 +360,7 @@ void missileE::fire(float x, float y, float angle)
 		_viBullet->y = _viBullet->fireY = y;
 		_viBullet->angle = angle;
 		_viBullet->rc = RectMakeCenter(_viBullet->x, _viBullet->y + 20,
-			_viBullet->bulletImage->getWidth() / 12,
+			_viBullet->bulletImage->getWidth() / 16,
 			_viBullet->bulletImage->getHeight() / 2);
 		break;
 	}
@@ -378,14 +378,14 @@ void missileE::move()
 		_viBullet->x += cosf(_viBullet->angle) * _viBullet->speed;
 		_viBullet->y += -sinf(_viBullet->angle) * _viBullet->speed;
 		_viBullet->rc = RectMakeCenter(_viBullet->x, _viBullet->y + 20,
-			_viBullet->bulletImage->getWidth() / 12,
+			_viBullet->bulletImage->getWidth() / 16,
 			_viBullet->bulletImage->getHeight() / 2);
 
 		//총알이 사거리보다 커졌을때
 		float distance = getDistance(_viBullet->fireX, _viBullet->fireY, _viBullet->x, _viBullet->y);
 		for (int i = 0; i < 30; i++)
 		{
-			if (_range < distance || _count > 1000)
+			if (_range < distance || _count > 1500)
 			{
 				_viBullet->fire = false;
 				_count = 0;
@@ -532,9 +532,11 @@ void missileE2::move()
 		RECT temp;
 		for (int i = 0; i < 30; i++)
 		{
-			if (_range < distance || _count % 2000 == 0 || IntersectRect(&temp, &_playerAdress->getPlayerRc(), &_viBullet->rc))
+			if (_range < distance || _count % 2000 == 0 || IntersectRect(&temp, &_playerAdress->getPlayerRc(), &_viBullet->rc) ||
+				IntersectRect(&temp, &_playerAdress->getAttack(), &_viBullet->rc))
 			{
 				_viBullet->fire = false;
+				_viBullet->rc = RectMakeCenter(_viBullet->x, _viBullet->y, 0, 0);
 			}
 		}
 	}
