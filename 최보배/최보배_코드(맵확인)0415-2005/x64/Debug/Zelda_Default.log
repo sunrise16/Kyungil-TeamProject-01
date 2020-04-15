@@ -1,0 +1,71 @@
+﻿  boss.cpp
+c:\users\hp\desktop\고보경_코드2(맵확인)\commonmacrofunction.h(76): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\commonmacrofunction.h(99): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\commonmacrofunction.h(100): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\commonmacrofunction.h(102): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\commonmacrofunction.h(103): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\commonmacrofunction.h(118): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\commonmacrofunction.h(124): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\commonmacrofunction.h(124): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\commonmacrofunction.h(166): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\boss.cpp(52): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\boss.cpp(53): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\boss.cpp(54): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\boss.cpp(96): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\boss.cpp(202): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\boss.cpp(203): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  inGameScene.cpp
+c:\users\hp\desktop\고보경_코드2(맵확인)\commonmacrofunction.h(76): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\commonmacrofunction.h(99): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\commonmacrofunction.h(100): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\commonmacrofunction.h(102): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\commonmacrofunction.h(103): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\commonmacrofunction.h(118): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\commonmacrofunction.h(124): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\commonmacrofunction.h(124): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\commonmacrofunction.h(166): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\ingamescene.cpp(146): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\ingamescene.cpp(148): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\ingamescene.cpp(181): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  mapToolScene.cpp
+c:\users\hp\desktop\고보경_코드2(맵확인)\commonmacrofunction.h(76): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\commonmacrofunction.h(99): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\commonmacrofunction.h(100): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\commonmacrofunction.h(102): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\commonmacrofunction.h(103): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\commonmacrofunction.h(118): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\commonmacrofunction.h(124): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\commonmacrofunction.h(124): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\commonmacrofunction.h(166): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\maptoolscene.cpp(386): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\maptoolscene.cpp(404): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\maptoolscene.cpp(616): warning C4244: '인수': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\maptoolscene.cpp(617): warning C4244: '인수': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\maptoolscene.cpp(657): warning C4554: '|': 연산자 우선 순위에 오류가 있는지 확인하세요. 괄호를 사용하여 우선 순위를 명확하게 지정하세요.
+  player.cpp
+c:\users\hp\desktop\고보경_코드2(맵확인)\commonmacrofunction.h(76): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\commonmacrofunction.h(99): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\commonmacrofunction.h(100): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\commonmacrofunction.h(102): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\commonmacrofunction.h(103): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\commonmacrofunction.h(118): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\commonmacrofunction.h(124): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\commonmacrofunction.h(124): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hp\desktop\고보경_코드2(맵확인)\commonmacrofunction.h(166): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+soundManager.obj : error LNK2019: FMOD_System_Create 외부 기호(참조 위치: "enum FMOD_RESULT __cdecl FMOD::System_Create(class FMOD::System * *)" (?System_Create@FMOD@@YA?AW4FMOD_RESULT@@PEAPEAVSystem@1@@Z) 함수)에서 확인하지 못했습니다.
+soundManager.obj : error LNK2019: "public: enum FMOD_RESULT __cdecl FMOD::System::release(void)" (?release@System@FMOD@@QEAA?AW4FMOD_RESULT@@XZ) 외부 기호(참조 위치: "public: void __cdecl soundManager::release(void)" (?release@soundManager@@QEAAXXZ) 함수)에서 확인하지 못했습니다.
+soundManager.obj : error LNK2019: "public: enum FMOD_RESULT __cdecl FMOD::System::init(int,unsigned int,void *)" (?init@System@FMOD@@QEAA?AW4FMOD_RESULT@@HIPEAX@Z) 외부 기호(참조 위치: "public: long __cdecl soundManager::init(void)" (?init@soundManager@@QEAAJXZ) 함수)에서 확인하지 못했습니다.
+soundManager.obj : error LNK2019: "public: enum FMOD_RESULT __cdecl FMOD::System::close(void)" (?close@System@FMOD@@QEAA?AW4FMOD_RESULT@@XZ) 외부 기호(참조 위치: "public: void __cdecl soundManager::release(void)" (?release@soundManager@@QEAAXXZ) 함수)에서 확인하지 못했습니다.
+soundManager.obj : error LNK2019: "public: enum FMOD_RESULT __cdecl FMOD::System::update(void)" (?update@System@FMOD@@QEAA?AW4FMOD_RESULT@@XZ) 외부 기호(참조 위치: "public: void __cdecl soundManager::update(void)" (?update@soundManager@@QEAAXXZ) 함수)에서 확인하지 못했습니다.
+soundManager.obj : error LNK2019: "public: enum FMOD_RESULT __cdecl FMOD::System::createSound(char const *,unsigned int,struct FMOD_CREATESOUNDEXINFO *,class FMOD::Sound * *)" (?createSound@System@FMOD@@QEAA?AW4FMOD_RESULT@@PEBDIPEAUFMOD_CREATESOUNDEXINFO@@PEAPEAVSound@2@@Z) 외부 기호(참조 위치: "public: void __cdecl soundManager::addSound(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,bool,bool)" (?addSound@soundManager@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0_N1@Z) 함수)에서 확인하지 못했습니다.
+soundManager.obj : error LNK2019: "public: enum FMOD_RESULT __cdecl FMOD::System::createStream(char const *,unsigned int,struct FMOD_CREATESOUNDEXINFO *,class FMOD::Sound * *)" (?createStream@System@FMOD@@QEAA?AW4FMOD_RESULT@@PEBDIPEAUFMOD_CREATESOUNDEXINFO@@PEAPEAVSound@2@@Z) 외부 기호(참조 위치: "public: void __cdecl soundManager::addSound(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,bool,bool)" (?addSound@soundManager@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0_N1@Z) 함수)에서 확인하지 못했습니다.
+soundManager.obj : error LNK2019: "public: enum FMOD_RESULT __cdecl FMOD::System::playSound(enum FMOD_CHANNELINDEX,class FMOD::Sound *,bool,class FMOD::Channel * *)" (?playSound@System@FMOD@@QEAA?AW4FMOD_RESULT@@W4FMOD_CHANNELINDEX@@PEAVSound@2@_NPEAPEAVChannel@2@@Z) 외부 기호(참조 위치: "public: void __cdecl soundManager::play(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,float)" (?play@soundManager@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@M@Z) 함수)에서 확인하지 못했습니다.
+soundManager.obj : error LNK2019: "public: enum FMOD_RESULT __cdecl FMOD::Sound::release(void)" (?release@Sound@FMOD@@QEAA?AW4FMOD_RESULT@@XZ) 외부 기호(참조 위치: "public: void __cdecl soundManager::release(void)" (?release@soundManager@@QEAAXXZ) 함수)에서 확인하지 못했습니다.
+soundManager.obj : error LNK2019: "public: enum FMOD_RESULT __cdecl FMOD::Channel::stop(void)" (?stop@Channel@FMOD@@QEAA?AW4FMOD_RESULT@@XZ) 외부 기호(참조 위치: "public: void __cdecl soundManager::release(void)" (?release@soundManager@@QEAAXXZ) 함수)에서 확인하지 못했습니다.
+soundManager.obj : error LNK2019: "public: enum FMOD_RESULT __cdecl FMOD::Channel::setPaused(bool)" (?setPaused@Channel@FMOD@@QEAA?AW4FMOD_RESULT@@_N@Z) 외부 기호(참조 위치: "public: void __cdecl soundManager::pause(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?pause@soundManager@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 함수)에서 확인하지 못했습니다.
+soundManager.obj : error LNK2019: "public: enum FMOD_RESULT __cdecl FMOD::Channel::getPaused(bool *)" (?getPaused@Channel@FMOD@@QEAA?AW4FMOD_RESULT@@PEA_N@Z) 외부 기호(참조 위치: "public: bool __cdecl soundManager::isPauseSound(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?isPauseSound@soundManager@@QEAA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 함수)에서 확인하지 못했습니다.
+soundManager.obj : error LNK2019: "public: enum FMOD_RESULT __cdecl FMOD::Channel::setVolume(float)" (?setVolume@Channel@FMOD@@QEAA?AW4FMOD_RESULT@@M@Z) 외부 기호(참조 위치: "public: void __cdecl soundManager::play(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,float)" (?play@soundManager@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@M@Z) 함수)에서 확인하지 못했습니다.
+soundManager.obj : error LNK2019: "public: enum FMOD_RESULT __cdecl FMOD::Channel::isPlaying(bool *)" (?isPlaying@Channel@FMOD@@QEAA?AW4FMOD_RESULT@@PEA_N@Z) 외부 기호(참조 위치: "public: bool __cdecl soundManager::isPlaySound(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?isPlaySound@soundManager@@QEAA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 함수)에서 확인하지 못했습니다.
+SOUND\lib\fmodex_vc.lib : warning LNK4272: 'x86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\Users\hp\Desktop\고보경_코드2(맵확인)\x64\Debug\Zelda_Default.exe : fatal error LNK1120: 14개의 확인할 수 없는 외부 참조입니다.
